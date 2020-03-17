@@ -3,8 +3,7 @@
 
 import pandas
 
-
-from my_mod import enlarge
+from dspt4_unit3_package.my_mod import enlarge
 
 print("Happy Tuesday Night!")
 
