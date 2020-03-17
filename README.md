@@ -2,21 +2,19 @@
 
 ## Installation
 
-````sh
 
-pip install -i https://test.pypi.org/simple/ dspt4-unit3-package
+```sh
+pip install -i https://test.pypi.org/simple/dspt4-unit3-package
 
+# in future maybe:
+# pip install my-lambdata-pt4
 ```
 
 ## Usage
 
-from dspt4_unit3_package.my_mod import enlarge
-
-print("Happy Tuesday Night!")
-
-df = pandas.DataFrame({'x':[1,2,3], 'y':[4,5,6]})
-print(df.head())
-
+```py
+from my_lambdata.my_mod import enlarge
 
 x = 5
-print("Enlarge", x, "to", enlarge(x))
+print("ENLARGE", x, "TO", enlarge(x))
+```
