@@ -3,8 +3,14 @@
 
 
 def enlarge(n):
-    return n * 100
+    """
+    Multiplies a number by 100
 
+    Param: n (numeric) the number to enlarge
+
+    Return the enlarge number (numeric)
+    """
+    return n * 100
 
 if __name__ == '__main__':
 
