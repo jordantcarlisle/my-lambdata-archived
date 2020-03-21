@@ -13,7 +13,7 @@ pip install -i https://test.pypi.org/simple/dspt4-unit3-package
 ## Usage
 
 ```py
-from my_lambdata.my_mod import enlarge
+from dspt4_unit3_package.my_mod import enlarge
 
 x = 5
 print("ENLARGE", x, "TO", enlarge(x))
